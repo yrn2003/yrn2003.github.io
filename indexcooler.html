@@ -1,0 +1,199 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>个人简历cooler</title>  
+    <style>  
+        /* 这里可以添加你的CSS样式 */  
+        /* 其他样式保持不变，并添加以下样式 */  
+  
+/* Fixed Header */  
+
+header {  
+    position: fixed;  
+    top: 0;  
+    left: 0;  
+    width: 100%;  
+    background-color: #fff;  
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  
+    z-index: 99;  
+}  
+  
+/* 响应式设计 */  
+@media (max-width: 600px) {  
+    header img {  
+        width: 100px;  
+    }  
+    section {  
+        padding: 5px;  
+    }  
+    /* 根据需要添加更多样式来适应小屏幕 */  
+}  
+  
+/* 过渡动画 */  
+a {  
+    text-decoration: none;  
+    color: #f40303;  
+    transition: color 0.3s ease;  
+}  
+  
+a:hover {  
+    color: #007bff;  
+}  
+  
+/* 更酷的布局（以section为例） */  
+section {  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+    justify-content: center;  
+    /* 根据需要添加更多布局样式 */  
+}  
+  
+/* 如果需要，还可以添加更多样式，如导航菜单的样式、按钮的样式等 */  
+  
+/* 注意：由于你的HTML中并没有导航链接或按钮，所以这里没有为它们添加具体的样式 */  
+  
+/* 为body添加一些padding-top，以防止内容与fixed header重叠 */  
+body {  
+    padding-top: 100px; /* 根据header的高度调整 */  
+    background-color: #fff;
+}
+        
+
+        body {  
+            font-family: Arial, sans-serif;  
+            margin: 0;  
+            padding: 20px;  
+        }  
+  
+        header {  
+            text-align: center;  
+        }  
+  
+        header img {  
+            width: 150px; /* 设置照片的宽度，也可以设置为height或max-width */  
+            height: auto; /* 保持图片的宽高比 */  
+            border-radius: 50%; /* 如果你想要一个圆形的照片 */  
+            margin-bottom: 20px; /* 照片下方的间距 */  
+        }  
+  
+        h1, h2 {  
+            text-align: center;  
+        }  
+  
+        section {  
+            margin-bottom: 20px;  
+            padding: 10px;  
+            border: 1px solid #ccc;  
+        }  
+  
+        section h2 {  
+            background-color: #f5f5f5;  
+            padding: 5px;  
+        }  
+  
+        ul {  
+            list-style-type: none;  
+            padding-left: 20px;  
+        }  
+    </style>  
+</head>  
+<body>  
+    <header>  
+        <img src="dp.jpg" alt="张三的照片" class="profile-photo">  
+        <h1 class="resume-title">个人简历</h1>  
+    </header>  
+      
+    <style>  
+        header {  
+            display: flex;  
+            justify-content: center; /* 水平居中 */  
+            align-items: center; /* 垂直居中 */  
+            height: 100px; /* 你可以根据需要设置header的高度 */  
+        }  
+      
+        .profile-photo {  
+            margin-right: 10px; /* 右侧间距 */  
+            width: 100px; /* 你可以根据需要设置图片的宽度 */  
+            height: auto;  
+            border-radius: 50%;  
+        }  
+      
+        .resume-title {  
+            /* 根据需要可以添加一些样式，如字体大小、颜色等 */  
+            font-size: 24px;  
+            margin: 0; /* 移除默认的margin */  
+        }  
+      
+        /* 如果你希望在小屏幕上图片和标题换行，可以添加媒体查询 */  
+        @media (max-width: 600px) {  
+            header {  
+                flex-direction: column; /* 改为垂直方向 */  
+                align-items: flex-start; /* 垂直方向从顶部开始 */  
+            }  
+      
+            .profile-photo {  
+                margin-bottom: 10px; /* 底部间距 */  
+            }  
+        }  
+    </style>
+  
+    <section>  
+        <h2>个人信息</h2>  
+        <ul>  
+            <li><strong>姓名:</strong> 小杨</li>  
+            <li><strong>联系方式:</strong> 123-456-7890</li>  
+            <li><strong>邮箱:</strong> xiaoyang03@qq.com</li>  
+            <li><strong>地址:</strong> 中国大陆上的某条街</li>  
+        </ul>  
+    </section>  
+  
+    <section>  
+        <h2>自我介绍</h2>  
+        <ul>  
+            <li>  
+                
+                <ul>  
+                    <li>大家好，我是小杨，现任统计与信息学院青年志愿者中心副部长，主要负责辰山植物园、松江血站、“春风育苗”等志愿者活动的策划、组织与开展。曾获校级二等奖学金，乐于助人，沟通能力与执行能力强，有着丰富的志愿者活动经验。</li>  
+                </ul>  
+            </li>  
+        </ul>  
+    </section>  
+  
+    <section>  
+        <h2>获奖情况</h2>  
+        <ul>  
+            <li>  
+                <strong>上海对外经贸大学在读期间：</strong>  
+                <ul>  
+                    <li>2023年11月在上海对外经贸大学因表现优秀荣获2022——2023学年第二学期优秀学生奖学金二等奖</li>  
+                    <li>2024年3月在上海对外经贸大学因表现优秀荣获2023——2024学年第一学期优秀学生奖学金二等奖</li>
+                    <li>2024年全国大学生英语竞赛三等奖</li>
+                </ul>  
+            </li>  
+        </ul>  
+    </section>  
+  
+    <section>  
+        <h2>组织经历</h2>  
+        <ul>  
+            <strong>线上参与：</strong>
+            <li>2022-2024学年共计参与水滴志愿者-辰山植物园志愿者活动四次</li>  
+            <li>2023.9.14迎新活动 </li>  
+            <li>2023.9.17注册报道志愿者活动</li>  
+            <strong>实地参与：</strong>
+            <li>2024年奥运会资格系列赛·上海志愿服务市级志愿者活动</li>  
+            <li>2022-2023学年第一学期松江血站志愿者活动</li>  
+            <li>2022-2023学年第一学期、第二学期、2023-2024学年第一学期水滴志愿者-辰山植物园志愿者活动</li>  
+            <li>2022-2023学年第二学期春风育苗志愿者活动</li>
+        </ul>  
+    </section>   
+  
+    <a href="form.html" target="_blank">查看我的表单</a><br>
+    <footer>  
+        <p>感谢您阅读我的简历</p>  
+    </footer>  
+</body>  
+</html>
